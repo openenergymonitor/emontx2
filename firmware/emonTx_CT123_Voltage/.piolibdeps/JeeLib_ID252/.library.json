@@ -1,0 +1,33 @@
+{
+    "name": "JeeLib", 
+    "repository": {
+        "url": "https://github.com/jcw/jeelib.git", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "7fc95a72ec", 
+    "export": {
+        "exclude": "Doxy*"
+    }, 
+    "examples": "examples/*/*/*.ino", 
+    "authors": [
+        {
+            "maintainer": false, 
+            "name": "Jean-Claude Wippler", 
+            "url": "https://github.com/jcw", 
+            "email": null
+        }
+    ], 
+    "keywords": [
+        "wireless", 
+        "rf", 
+        "radio"
+    ], 
+    "id": 252, 
+    "description": "A library for JeeNodes and for compatible devices, with drivers for its wireless radio modules"
+}

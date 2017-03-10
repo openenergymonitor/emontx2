@@ -1,0 +1,106 @@
+{
+    "name": "OneWire", 
+    "repository": {
+        "url": "https://github.com/PaulStoffregen/OneWire", 
+        "type": "git"
+    }, 
+    "platforms": [], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "2.3.2", 
+    "examples": [
+        "examples/*/*.pde"
+    ], 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Paul Stoffregen", 
+            "url": "http://www.pjrc.com", 
+            "email": "paul@pjrc.com"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Jim Studt"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": "pollard@alum.mit.edu", 
+            "name": "Tom Pollard"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Derek Yerger"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Josh Larios"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Robin James"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Glenn Trewitt"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": "dangel.jason AT gmail.com", 
+            "name": "Jason Dangel"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Guillermo Lovato"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Ken Butcher"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Mark Tillotson"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Bertrik Sikken"
+        }, 
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Scott Roberts"
+        }
+    ], 
+    "keywords": [
+        "onewire", 
+        "temperature", 
+        "bus", 
+        "1-wire", 
+        "ibutton", 
+        "sensor"
+    ], 
+    "homepage": "https://www.pjrc.com/teensy/td_libs_OneWire.html", 
+    "id": 1, 
+    "description": "Control 1-Wire protocol (DS18S20, DS18B20, DS2408 and etc)"
+}
