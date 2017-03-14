@@ -9,11 +9,11 @@ _The error below 40W could not be measured reliably and below 100W it was worse 
 
 It may be that your emontx will surpass or fail to achieve these accuracy levels depending on:
 
-1) Calibration - as demonstrated in this test, it may be necessary to apply an additional calibration, the precision of the different components in the circuit means that the voltage calibration can be anywhere betweenÂ 203.1 â 265.4 while the current sensor calibration can be anywhere betweenÂ 109.44 â 112.78 seeÂ [CT and AC power adapter installation and calibration theory](https://openenergymonitor.org/emon/buildingblocks/ct-and-ac-power-adaptor-installation-and-calibration-theory)
+1) Calibration - as demonstrated in this test, it may be necessary to apply an additional calibration, the precision of the different components in the circuit means that the voltage calibration can be anywhere between  203.1 – 265.4 while the current sensor calibration can be anywhere between 109.44 – 112.78see [CT and AC power adapter installation and calibration theory](https://learn.openenergymonitor.org/electricity-monitoring/ctac/calibration)
 
-2) Bias position will have a large effect on accuracy at low powers see:Â [https://openenergymonitor.org/emon/buildingblocks/measurement-implications-of-adc-resolution-at-low-current-values](https://openenergymonitor.org/emon/buildingblocks/measurement-implications-of-adc-resolution-at-low-current-values)
+2) Bias position will have a large effect on accuracy at low powers see: [https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/measurement-implications-of-adc-resolution-at-low-current-values](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/measurement-implications-of-adc-resolution-at-low-current-values)
 
-3) Level of electro-magnetic interference in your environment. Some laptops and switch mode power supplies can be a large source ofÂ electro-magnetic interference. Whether your circuit is shielded in any way i.e inside a metal box. A certain level of noise is actually a good thing as it helps overcome the limitations of trying to measure power where the current waveform is close to the ADC level magnitude, by causing the levels to flip higher and lower which after averaging gives a more accurate result.Â
+3) Level of electro-magnetic interference in your environment. Some laptops and switch mode power supplies can be a large source ofÂ electro-magnetic interference. Whether your circuit is shielded in any way i.e inside a metal box. A certain level of noise is actually a good thing as it helps overcome the limitations of trying to measure power where the current waveform is close to the ADC level magnitude, by causing the levels to flip higher and lower which after averaging gives a more accurate result.
 
 If you could also repeat this test and post up your results, it would be great to get some comparative data of different emontx's in real world use.
 
@@ -1833,11 +1833,11 @@ Applying the calibration:
 
 ### Plot of Maximum error at power
 
-Â ![](docs/emontxerrorplots01.png)
+[](docs/emontxerrorplots01.png)
 
 ### Removing the first and largest error value so that we can better see the other datapoints:
 
-![](docs/files/emontxerrorplots02.png)
+![](docs/emontxerrorplots02.png)
 
 ## Update
 

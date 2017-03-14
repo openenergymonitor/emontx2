@@ -28,6 +28,7 @@ The emonTx is one part of the OpenEnergyMonitor end-to-end web-based energy moni
 
 ![board.png](board.png)
 
+- PCB: 63.3 mm x 56 mm
 
 ### Port Map
 

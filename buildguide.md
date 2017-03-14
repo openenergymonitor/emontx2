@@ -1,8 +1,6 @@
-# emonTx V2 Build Guide
-
 # emonTx V2.2 Build Guide
 
-If you run into problems please post on the [forum](https://community.openenergymonitor.org).
+If you run into problems please post on the [Community Forum](https://community.openenergymonitor.org).
 
 The PCB is built in an orderly sequence starting with the resistors and small components that are low on the board, then working up to the bulkier parts like connectors. After soldering each component, you need to cut off the excess component leg from the bottom using some cutters.
 
@@ -233,17 +231,13 @@ See [DS18B20 temperature sensing](http://openenergymonitor.org/emon/buildingbloc
 
 The ATmega328 chip is preloaded with the Arduino Optiboot 4.4 bootloader (select Uno in IDE) but no sketch. The correct sketch must be uploaded using the Arduno IDE.
 
-emonTx Arduino firmware can be downloaded from: [https://github.com/openenergymonitor/emonTxFirmware.](https://github.com/openenergymonitor/emonTxFirmware)
-
-The EmonTx v2 firmware examples are in the EmonTx v2 folder. There is a github readme that lists all the examples and the Arduino libraries required here:
-
-[https://github.com/openenergymonitor/emonTxFirmware/tree/master/emonTxV2](https://github.com/openenergymonitor/emonTxFirmware/tree/master/emonTxV2)
+**See Firmware folder in the root of this repo**
 
 The best firmware for power monitoring with a CT sensor and an AC-AC Adapter for voltage measurement is the **emonTx_CT123_Voltage** example.
 
 ## Connections
 
-See emonTx [Design Reference](http://openenergymonitor.org/emon/emontx/reference%20) page.
+See PortMap in the Hardware folder in the root of this repo
 
 ## Testing
 
