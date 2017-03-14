@@ -29,6 +29,22 @@ The emonTx is one part of the OpenEnergyMonitor end-to-end web-based energy moni
 ![board.png](board.png)
 
 
+### Port Map
+
+![](portmap.png)
+
+### Change log
+
+- V1.0 - first release
+- V1.1 - corrected CT circuit error
+- V1.2 - complete re-route with GND plate added and signal wires increased to 10mill and power to 16mill. JeeNode offset header - pins changed.
+- V1.3 - complete re-route with http://www.freerouting.net/. Reduced vias from 36 to 5!
+- V1.4 fixed R9 (one-wire temp) to be pull-up not pull-down
+- V1.5 Changed one-wire temperature connection 2.5mm jack-port to enable the use of standard mono 2.5mm jack-plug
+- V.2.0 Added another channel to make 3 CT channels. Added option for voltage measurement for real power measurement. Changed to - 3.5mm CT jacks for comparability with seedstudio CT's
+- V2.1 - slightly reduce PCB size to fit better into case (63.3x56mm), add voltage selectable jumper (5v3.3V) for pulse IRQ 3.5mm jack digital I/O, add footprint to solder in D18B20 temperature sensor directly onto the board, silkscreen changes including new rear graphics, added top ground plate.
+- V2.2 - Added solder jumper to give option to connect temperature sensors to 5V instead of Vcc (3.3V) when emonTx is powered by 5V - USB. Better for multiple sensors and medium/long cable runs
+- V2.2.1 11/09/12 - minor silkscreen changes (spelling corrections!), and change "made in UK" to "made in Wales"... :-)
 
 ### Open Hardware
 
