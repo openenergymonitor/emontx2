@@ -51,7 +51,7 @@ or
 
 ## Wireless
 
-- Uses Hope Alpha RF / RFM12B Transceiver. Frequencies available include: ISM band 433Mhz (All countries), 868Mhz (Europe only), or 915 MHz (US and Australia only). The OpenEnergyMonitor kit includes the option of a 433Mhz or 868Mhz module.
+- Uses Hope Alpha RF / RFM12B Transceiver. Frequencies available include: ISM band 433MHz (All countries), 868MHz (Europe only), or 915 MHz (US and Australia only). The OpenEnergyMonitor kit includes the option of a 433MHz or 868MHz module.
 - Up to 30 emonTxs can communicate with one emonBase station
 - Potential for 250 different network groups set up in a single location
 
