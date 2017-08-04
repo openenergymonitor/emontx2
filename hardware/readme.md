@@ -1,6 +1,6 @@
 # emonTx V2
 
-**The emonTx V3 has been superseded by the [emonTx V3](https://github.com/openenergymonitor/emontx3)**
+**The emonTx V2 has been superseded by the [emonTx V3](https://github.com/openenergymonitor/emontx3)**
 
 ***
 
@@ -10,6 +10,9 @@ It's designed to sense data from up to three CT current sensors, optically from 
 
 The emonTx is one part of the OpenEnergyMonitor end-to-end web-based energy monitoring system. The other parts being a graphical LCD wireless display (emonGLCD), web connected base station receiver (emonBase / Nanode-RF) and emoncms server based energy visualisation web application.
 
+[https://github.com/openenergymonitor/emontx2/blob/master/buildguide.md](Build Guide)
+
+[https://community.openenergymonitor.org/c/hardware/emontx](emonTx Forum Category)
 
 [http://shop.openenergymonitor.com/emontx-v3/]([http://shop.openenergymonitor.com/sensor-nodes/])
 
