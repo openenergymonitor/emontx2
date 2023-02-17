@@ -44,3 +44,5 @@ eagle.epf
 
 .pioenvs
 .piolibdeps
+.pio
+*.hex
